@@ -3,8 +3,12 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     extend: {
+      colors:{
+        'primary' : '#3238f2',
+      },
       fontFamily:{
-        'default' : ['Inter', 'sans-serif']
+        'display' : ['Poppins', 'sans-serif'],
+        'body' : ['Inter', 'sans-serif']
       }
     },
   },
